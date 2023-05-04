@@ -17,6 +17,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+    background-color: red;
 }
 
 
@@ -178,7 +179,6 @@ main {
 		<section class="content">
 			<h1>콘텐츠</h1>
 			<p>여기에는 공연과 관련된 다양한 콘텐츠가 나타납니다.</p>
-  <h2>콘텐츠</h2>
   <ul style="display: flex; flex-wrap: wrap;">
     <li><a href="contents1.html"><img src="content1.jpg" alt="콘텐츠 1"></a></li>
     <li><a href="contents2.html"><img src="content2.jpg" alt="콘텐츠 2"></a></li>
@@ -192,7 +192,30 @@ main {
 		<section class="news">
 			<h1>뉴스</h1>
 			<p>여기에는 최신 음악 뉴스가 나타납니다.</p>
+            <div class="news-section">
+    <a href="news1.html"><img src="news1.jpg" alt="news1"></a>
+    <a href="news2.html"><img src="news2.jpg" alt="news2"></a>
+    <a href="news3.html"><img src="news3.jpg" alt="news3"></a>
+    <a href="news4.html"><img src="news4.jpg" alt="news4"></a>
+    <a href="news5.html"><img src="news5.jpg" alt="news5"></a>
+  </div>
+</div>
 		</section>
+        <div class="external-links-section">
+  <h2>관련 링크</h2>
+  <div class="external-links-container">
+    <div class="external-links-row">
+      <a href="https://www.youtube.com/"><img src="youtube.jpg" alt="youtube"></a>
+      <a href="https://www.instagram.com/"><img src="instagram.jpg" alt="instagram"></a>
+      <a href="https://www.facebook.com/"><img src="facebook.jpg" alt="facebook"></a>
+    </div>
+    <div class="external-links-row">
+      <a href="https://twitter.com/"><img src="twitter.jpg" alt="twitter"></a>
+      <a href="https://www.tiktok.com/"><img src="tiktok.jpg" alt="tiktok"></a>
+      <a href="https://www.spotify.com/"><img src="spotify.jpg" alt="spotify"></a>
+    </div>
+  </div>
+</div>
 	</main>
 	<footer>
 		<p>&copy; 2023 Concert Central</p>
